@@ -30,7 +30,8 @@
 
 ## 联系我们
 如果您对本隐私政策有任何疑问，请通过以下方式联系：
-- GitHub: [无！]
+- GitHub: [https://github.com/CarrryMe/DouyinCustomizer]
 - 邮箱: [yuluo2oo@gmail.com]
 
 最后更新日期：2025年8月31日
+
