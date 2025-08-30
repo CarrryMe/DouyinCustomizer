@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "抖音快捷键禁用器",
+  "version": "1.0.0",
+  "description": "禁用抖音网站上的双击点赞和各种快捷键，让您更自由地浏览内容而不会被意外触发快捷键。支持自定义设置，可选择性禁用特定快捷键。",
+  "permissions": ["storage"],
+  "host_permissions": ["*://www.douyin.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.douyin.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "抖音快捷键禁用器"
+  },
+  "author": "ShouXu",
+  "homepage_url": "https://github.com"
+}

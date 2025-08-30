@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>抖音快捷键禁用</title>
+  <style>
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+      padding: 10px; 
+      width: 320px; 
+      font-size: 14px;
+      line-height: 1.4;
+    }
+    label { 
+      display: block; 
+      margin: 8px 0; 
+      cursor: pointer;
+    }
+    h3, h4 {
+      margin: 15px 0 10px 0;
+      color: #333;
+    }
+    button {
+      margin-top: 15px;
+      padding: 8px 16px;
+      background-color: #007AFF;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #0056CC;
+    }
+    hr {
+      margin: 15px 0;
+      border: none;
+      border-top: 1px solid #E5E5E7;
+    }
+    .section {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h3>抖音快捷键禁用设置</h3>
+  
+  <div class="section">
+    <h4>双击功能</h4>
+    <label><input type="checkbox" id="disableDoubleClick"> 禁用双击鼠标点赞</label>
+    <label><input type="checkbox" id="disableDoubleSpace"> 禁用双击空格</label>
+  </div>
+  
+  <hr>
+  
+  <div class="section">
+    <h4>默认禁用的快捷键</h4>
+    <label><input type="checkbox" id="like_Z"> 禁用赞/取消赞 (Z)</label>
+    <label><input type="checkbox" id="comment_X"> 禁用评论 (X)</label>
+    <label><input type="checkbox" id="danmuToggle_B"> 禁用弹幕开关 (B)</label>
+    <label><input type="checkbox" id="favorite_C"> 禁用收藏/取消收藏 (C)</label>
+    <label><input type="checkbox" id="share_V"> 禁用复制分享口令 (V)</label>
+    <label><input type="checkbox" id="clearScreen_J"> 禁用清屏 (J)</label>
+    <label><input type="checkbox" id="autoPlay_K"> 禁用自动连播 (K)</label>
+    <label><input type="checkbox" id="videoInfo_I"> 禁用视频信息 (I)</label>
+    <label><input type="checkbox" id="recommend_P"> 禁用推荐给朋友 (P)</label>
+    <label><input type="checkbox" id="authorPage_F"> 禁用进入作者主页 (F)</label>
+    <label><input type="checkbox" id="follow_G"> 禁用关注/取消关注 (G)</label>
+    <label><input type="checkbox" id="fullscreen_Y"> 禁用网页内全屏 (Y)</label>
+    <label><input type="checkbox" id="fullscreen_H"> 禁用全屏 (H)</label>
+    <label><input type="checkbox" id="watchLater_L"> 禁用稍后再看 (L)</label>
+    <label><input type="checkbox" id="volume_ShiftPlusMinus"> 禁用音量调整 (Shift + / -)</label>
+    <label><input type="checkbox" id="shortcutList_Question"> 禁用呼出快捷键列表 (?)</label>
+    <label><input type="checkbox" id="closeShortcutList_ESC"> 禁用关闭快捷键列表 (ESC)</label>
+    <label><input type="checkbox" id="relatedRecommend_N"> 禁用相关推荐 (N)</label>
+    <label><input type="checkbox" id="listenDouyin_T"> 禁用听抖音 (T)</label>
+    <label><input type="checkbox" id="douyinSearch_ShiftF"> 禁用抖音搜索 (Shift+F)</label>
+    <label><input type="checkbox" id="closePage_ShiftQ"> 禁用一键关闭当前页 (Shift+Q)</label>
+  </div>
+
+  <hr>
+  
+  <div class="section">
+    <h4>默认启用的快捷键（保留功能）</h4>
+    <label><input type="checkbox" id="pageUpDown_Arrows"> 禁用上下翻页 (↑ ↓)</label>
+    <label><input type="checkbox" id="fastForwardRewind_Arrows"> 禁用快进快退 (← →)</label>
+    <label><input type="checkbox" id="pause_Space"> 禁用暂停 (空格)</label>
+    <label><input type="checkbox" id="notInterested_R"> 禁用不感兴趣 (R)</label>
+  </div>
+
+  <button id="save">保存设置</button>
+  <script src="popup.js"></script>
+</body>
+</html>
