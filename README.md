@@ -44,5 +44,7 @@
 - 🚀 **轻量高效** - 不影响页面加载速度
 - 🛡️ **安全可靠** - 开源代码，透明可信
 -  隐私政策[https://github.com/CarrryMe/DouyinCustomizer/blob/main/privacy-policy.md]
-让您的抖音浏览体验更加自由舒适！
+
+### 让您的抖音浏览体验更加自由舒适！
+
 
