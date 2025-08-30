@@ -43,6 +43,6 @@
 - 🎯 **精准控制** - 只禁用您不需要的快捷键
 - 🚀 **轻量高效** - 不影响页面加载速度
 - 🛡️ **安全可靠** - 开源代码，透明可信
-- 📱 **持续更新** - 及时适配抖音网站变化
-
+-  隐私政策[https://github.com/CarrryMe/DouyinCustomizer/blob/main/privacy-policy.md]
 让您的抖音浏览体验更加自由舒适！
+
