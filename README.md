@@ -29,7 +29,7 @@
 - 等等...
 
 ## 使用方法
-1. 打开谷歌游览器，访问chrome://extensions/
+1. 打开谷歌游览器，访问[chrome://extensions/]
 2. 右上角启用开发者模式，然后加载未打包的拓展程序，选择下载下来的文件夹
 3. 安装插件后访问抖音网站
 4. 点击浏览器工具栏中的插件图标
@@ -48,6 +48,7 @@
 -  隐私政策[https://github.com/CarrryMe/DouyinCustomizer/blob/main/privacy-policy.md]
 
 ### 让您的抖音浏览体验更加自由舒适！
+
 
 
 
